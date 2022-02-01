@@ -8,10 +8,10 @@ read a b
 result=`expr $a + $b`
 
 # show result
-echo "Result: $result"
+echo "Result of addition: $result"
 
 # compute division result
 result=`expr "$a * $b" | bc -l`
 
 # print output
-echo "Result: $result"
+echo "Result of multiplication: $result"
